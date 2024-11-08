@@ -185,8 +185,17 @@ main {
   max-width: var(--fixed-width);
   background: var(--clr-red-dark);
   border-radius: var(--radius);
-  padding: 1.5rem 2rem;
- 
+  padding: 1rem 1rem;
+  color: white;
+  font-size: 2rem;
+  text-align: right;
+  text-transform:uppercase;
+  text-decoration: solid;
+  float:right
+  
+  /* position: absolute;
+    right: 0px;
+    width: auto; */
 }
 
 .container h3 {
