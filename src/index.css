@@ -172,30 +172,51 @@ main {
 }
 
 .container {
-  width: 100vw;
+  position: relative;
+  width: 80vw;
   margin: 5rem 0;
-  max-width: var(--fixed-width);
+  /* max-width: var(--fixed-width); */
   background: var(--clr-white);
   border-radius: var(--radius);
   padding: 1.5rem 2rem;
   box-shadow: var(--dark-shadow);
+ 
 }
 .title {
+
   
-  max-width: var(--fixed-width);
+  width: 1;
   background: var(--clr-red-dark);
-  border-radius: var(--radius);
-  padding: 1rem 1rem;
-  color: white;
-  font-size: 2rem;
+  border-radius: 2rem;
+  padding: 0.5rem 1rem;
+ 
   text-align: right;
-  text-transform:uppercase;
+ 
   text-decoration: solid;
-  float:right
-  
-  /* position: absolute;
-    right: 0px;
-    width: auto; */
+  position: absolute;
+    right: 7%;
+    top:-3%;
+
+    
+}
+.titletext{
+  color: white;
+  font-size: 150%;
+  text-transform: uppercase;
+}
+.first {
+border-radius: 2rem;
+border-color: white;
+text-transform: uppercase;
+background-color: white;
+}
+.second {
+  position: absolute;
+  left:50%;
+  border-radius: 2rem;
+}
+.third {
+  border-radius: 2rem;
 }
 
 .container h3 {
